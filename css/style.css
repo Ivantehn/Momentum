@@ -121,7 +121,6 @@ body {
 .weather {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: flex-start;
   row-gap: 5px;
   width: 180px;
@@ -283,4 +282,8 @@ body {
     font-size: 32px;
     padding: 5px;
   }
+}
+
+.hidden {
+  display: none;
 }
